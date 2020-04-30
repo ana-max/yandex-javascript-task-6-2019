@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "main": "async.js",
+  "scripts": {
+    "deps": "npm ci",
+    "lint": "eslint async.js",
+    "test": "npm run lint && mocha *.spec.js --exit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
+  "dependencies": {
+    "eslint": "6.5.1",
+    "eslint-config-hrundel": "latest",
+    "got": "9.3.2",
+    "husky": "3.0.9",
+    "mocha": "6.2.2",
+    "sinon": "7.1.1"
+  }
+}

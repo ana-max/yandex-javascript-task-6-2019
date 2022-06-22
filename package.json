@@ -14,7 +14,7 @@
   "dependencies": {
     "eslint": "6.5.1",
     "eslint-config-hrundel": "latest",
-    "got": "9.3.2",
+    "got": "11.8.5",
     "husky": "3.0.9",
     "mocha": "6.2.2",
     "sinon": "7.1.1"

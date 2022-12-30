@@ -16,7 +16,7 @@
     "eslint-config-hrundel": "latest",
     "got": "9.3.2",
     "husky": "3.0.9",
-    "mocha": "6.2.2",
+    "mocha": "10.2.0",
     "sinon": "7.1.1"
   }
 }
